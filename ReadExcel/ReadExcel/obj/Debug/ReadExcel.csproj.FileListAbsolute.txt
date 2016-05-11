@@ -6,3 +6,11 @@ D:\Project\Test\C#\ConsoleApplication\ReadExcel\ReadExcel\ReadExcel\obj\Debug\Re
 D:\Project\Test\C#\ConsoleApplication\ReadExcel\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
 D:\Project\Test\C#\ConsoleApplication\ReadExcel\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
 D:\Project\Test\C#\ConsoleApplication\ReadExcel\ReadExcel\ReadExcel\bin\Debug\test.xls
+D:\Project\GitHub\ReadExcel\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+D:\Project\GitHub\ReadExcel\ReadExcel\ReadExcel\obj\Debug\ReadExcel.csproj.ResolveComReference.cache
+D:\Project\GitHub\ReadExcel\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+D:\Project\GitHub\ReadExcel\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+D:\Project\GitHub\ReadExcel\ReadExcel\ReadExcel\bin\Debug\test.xls
+D:\Project\GitHub\ReadExcel\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+D:\Project\GitHub\ReadExcel\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+D:\Project\GitHub\ReadExcel\ReadExcel\ReadExcel\obj\Debug\ReadExcel.csprojResolveAssemblyReference.cache

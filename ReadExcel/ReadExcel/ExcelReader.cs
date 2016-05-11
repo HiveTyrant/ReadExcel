@@ -33,9 +33,9 @@ namespace ReadExcel
                 //Price = x.Field<string>("Price"),
                 //Qty = x.Field<string>("Quantity"),
 
-                ID = x.Field<string>(0),
-                Product = x.Field<string>(1),
-                Customer = x.Field<string>(2),
+                ID = x.Field<string>(0) ?? "n/a",
+                Product = x.Field<string>(1) ?? "n/a",
+                Customer = x.Field<string>(2) ?? "n/a",
                 Country = x.Field<string>(3),
                 City = x.Field<string>(4),
                 Date = x.Field<string>(5),
@@ -43,14 +43,14 @@ namespace ReadExcel
                 Qty = x.Field<string>(7),
             });
 
-            Console.WriteLine("ID	Product Customer    Date    Quantity");
+            Console.WriteLine("ID    Product   Customer\tDate\t\tQuantity");
             q.Skip(1)
-             .Where(x => !string.IsNullOrEmpty(x.Product) && x.Product.Length < 10 && !string.IsNullOrEmpty(x.Customer) && x.Customer.Length < 10)
+             .Where(x => x.ID != "n/a" && x.Product.Length < 10 && x.Customer.Length < 16)
              .OrderBy(x => x.ID.Length)
              .ThenBy(x => x.ID)
              .Take(20)
              .ToList()
-             .ForEach(x => Console.WriteLine(string.Format("{0}\t{1}\t{2}\t{3}\t{4}", x.ID, x.Product, x.Customer, x.Date, x.Qty)));
+             .ForEach(x => Console.WriteLine(string.Format("{0} {1}\t{2}\t{3}\t{4}", x.ID, x.Product, x.Customer, x.Date, x.Qty)));
 
         }
 
